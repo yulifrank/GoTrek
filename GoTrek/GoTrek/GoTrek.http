@@ -1,0 +1,6 @@
+@GoTrek_HostAddress = http://localhost:5207
+
+GET {{GoTrek_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
