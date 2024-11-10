@@ -1,0 +1,13 @@
+.map-container {
+  margin-top: -2%; /* רווח עליון */
+  width: 80%; /* 80% מרוחב המסך */
+  height: 80vh; /* 80% מגובה המסך */
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ccc; /* מסגרת */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* הצללה */
+  overflow: hidden; /* מונע גלילה פנימית */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
