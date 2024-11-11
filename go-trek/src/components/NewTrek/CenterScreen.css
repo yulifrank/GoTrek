@@ -1,0 +1,52 @@
+/* CenterScreen Component */
+.center-screen {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    box-sizing: border-box;
+  }
+  
+  /* Pro Label Styling */
+  .pro-label {
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* ProSpan Styling */
+  .pro-span {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+    margin-left: 0.3em;
+    margin-bottom: 0.08em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('https://mui.com/static/x/pro.svg');
+  }
+  
+  /* Tooltip Styling */
+  .tooltip {
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  
+  /* Demo Container Custom Styling */
+  .demo-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Time Range Field Styling */
+  .time-range-field {
+    width: 100%;
+  }
+  

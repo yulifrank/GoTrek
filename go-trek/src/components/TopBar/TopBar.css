@@ -2,4 +2,10 @@
     background-color: beige;
     color: rgb(74, 134, 13);
     font-size: 30px;
+    text-align: center;
+}
+
+.css-1t6c9ts {
+    display: flex;
+    justify-content: center
 }
